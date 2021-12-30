@@ -1,0 +1,220 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  /* from home css */
+  
+
+  *{
+    margin:0;
+    padding:0;  
+    
+    box-sizing: border-box;
+  }
+  .header{
+    padding-top: 7px;
+      min-height: 17vh;
+      width:100%;
+     background-image:linear-gradient(rgba(43, 43, 38, 0.7),rgba(4,13.49,0.7)),
+     url(image/e.jpg);
+   
+  background-position: center;
+   background-size: cover;
+  position: relative;
+  
+  }
+  
+  .word{
+    text-align: center;
+   font-size: 50px;
+   color:orangered;
+   opacity: 0.7;
+   background-color: rgb(75, 63, 63);
+   animation: text 3s 1;
+  }
+  
+  .word2{
+   padding-top:10px;
+  
+    text-align: center;
+    font-size: 30px;
+    color:cornflowerblue;
+    background-color: rgb(75, 63, 63);
+    opacity: 0.7;
+    animation: text2 3s 1;
+  }
+  @keyframes text {
+  0%{
+  
+    margin-bottom: -40px;
+  } 
+  30%{
+   letter-spacing: 25px;
+    margin-bottom: -40px;
+  } 
+  85%{
+    letter-spacing: 8px;
+     margin-bottom: -40px;
+   } 
+  }
+  @keyframes text2 {
+    0%{
+    
+      margin-top: 25px;
+    } 
+    30%{
+      letter-spacing: 25px;
+       margin-top: 25px;
+     } 
+     85%{
+       letter-spacing: 8px;
+        margin-top: 25px;
+      } 
+  }
+  .w2{
+  
+    font-size: 30px;
+    text-align: center;
+    margin-left: 220px;
+    text-align:left;
+  margin-top: 50px;
+  color: rgb(245, 9, 9);
+  animation: anime 5s linear infinite;
+  
+  
+  }
+  @keyframes anime {
+    0% ,100%{
+  color:rgb(20, 3, 3);
+  filter:brightness();
+    }
+    5% ,95%{
+      color: rgb(248, 248, 250);
+      filter:brightness();
+      
+        }
+    }
+  .w3{
+  
+  font-size: 30px;
+    text-align: center;
+    margin-right: 280px;
+    text-align:right;
+  margin-top: 50px;
+  color: rgb(0, 255, 85);
+  animation: anime 2s linear infinite;
+  
+  
+  }
+  nav{
+  height: 100px;
+    opacity: 0.8;
+    display: flex;
+    padding: 2% 0.5%;
+  justify-content: space-between;
+  align-items: center;
+  }
+  .nav-links{
+    flex: 1;
+    text-align:right;
+  }
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding:8px 12px;
+    position: relative;
+  }
+  .nav-links ul li a{
+    margin-right: 3p;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(202, 219, 202);
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .nav-links ul li ::after{
+    content: '';
+    width:0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+  
+  }
+  .nav-links ul li:hover ::after{
+    width: 100%;
+  
+  }
+  .footer{
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+   width: 100%;
+    color: rgb(31, 17, 2);
+    background-color: rgb(152, 138, 236);
+   
+  background-position: center;
+   background-size: cover;
+  
+    text-align: center;
+  }
+  .footer h4{
+    
+     font-weight: 600;
+  }
+  
+  
+  
+  

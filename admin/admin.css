@@ -1,0 +1,22 @@
+input[type=text],  input[type=file] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: rgb(207, 207, 207);
+    width: 50%;
+}
+
+input[type=submit]{
+    height: 50px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+
+
